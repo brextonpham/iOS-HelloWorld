@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *enterField;
+
+- (IBAction)enterButton:(id)sender;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
 
